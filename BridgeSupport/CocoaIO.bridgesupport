@@ -1,0 +1,42 @@
+<?xml version='1.0'?>
+<!DOCTYPE signatures SYSTEM "file://localhost/System/Library/DTDs/BridgeSupport.dtd">
+<signatures version='0.9'>
+<depends_on path='/System/Library/Frameworks/Cocoa.framework'/>
+<depends_on path='/System/Library/Frameworks/IOKit.framework'/>
+<depends_on path='/System/Library/Frameworks/CoreFoundation.framework'/>
+<depends_on path='/System/Library/Frameworks/Foundation.framework'/>
+<constant name='CIOAudioPlane' type='@'/>
+<constant name='CIODeviceTreePlane' type='@'/>
+<constant name='CIOFireWirePlane' type='@'/>
+<constant name='CIOPowerPlane' type='@'/>
+<constant name='CIOServicePlane' type='@'/>
+<constant name='CIOUSBPlane' type='@'/>
+<function name='CIO'>
+<retval type='@'/>
+</function>
+<function name='CIOIteratorStealObjs'>
+<arg type='I'/>
+<retval type='@'/>
+</function>
+<function name='CIOMatchBSDName'>
+<arg type='@'/>
+<retval type='@'/>
+</function>
+<function name='CIOMatchClass'>
+<arg type='@'/>
+<retval type='@'/>
+</function>
+<function name='CIOMatchFWPath'>
+<arg type='@'/>
+<retval type='@'/>
+</function>
+<function name='CIOMatchName'>
+<arg type='@'/>
+<retval type='@'/>
+</function>
+<class name='CIOObject'>
+<method selector='isEqualTo:'>
+<retval type='B'/>
+</method>
+</class>
+</signatures>

@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		FCEAE6350E09B01100C3D917 /* Update Bridge Metadata */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FCEAE63A0E09B03600C3D917 /* Build configuration list for PBXAggregateTarget "Update Bridge Metadata" */;
+			buildPhases = (
+				FCEAE6340E09B01100C3D917 /* ShellScript */,
+			);
+			dependencies = (
+				FCEAE6390E09B01800C3D917 /* PBXTargetDependency */,
+			);
+			name = "Update Bridge Metadata";
+			productName = "Update Bridge Metadata";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
+		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+		FC749EB10E0863C1006AA51F /* CIORegistryEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = FC749EAF0E0863C1006AA51F /* CIORegistryEntry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC749EB20E0863C1006AA51F /* CIORegistryEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = FC749EB00E0863C1006AA51F /* CIORegistryEntry.m */; };
+		FC749EB60E08640C006AA51F /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC749EB50E08640C006AA51F /* IOKit.framework */; };
+		FC749F7C0E08655A006AA51F /* CocoaIO.h in Headers */ = {isa = PBXBuildFile; fileRef = FC749F7A0E08655A006AA51F /* CocoaIO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC749F7D0E08655A006AA51F /* CocoaIO.mm in Sources */ = {isa = PBXBuildFile; fileRef = FC749F7B0E08655A006AA51F /* CocoaIO.mm */; };
+		FC749F890E086A4D006AA51F /* CIOObject.h in Headers */ = {isa = PBXBuildFile; fileRef = FC749F870E086A4D006AA51F /* CIOObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC749F8A0E086A4D006AA51F /* CIOObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FC749F880E086A4D006AA51F /* CIOObject.m */; };
+		FC749FB20E0876ED006AA51F /* CIOIterator.h in Headers */ = {isa = PBXBuildFile; fileRef = FC749FB00E0876ED006AA51F /* CIOIterator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC749FB30E0876ED006AA51F /* CIOIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = FC749FB10E0876ED006AA51F /* CIOIterator.m */; };
+		FCC198BC0E0BF538000465B2 /* CIOUSBDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = FCC198BA0E0BF538000465B2 /* CIOUSBDevice.h */; };
+		FCC198BD0E0BF538000465B2 /* CIOUSBDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC198BB0E0BF538000465B2 /* CIOUSBDevice.m */; };
+		FCC199880E11A668000465B2 /* CIOUSBInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = FCC199860E11A668000465B2 /* CIOUSBInterface.h */; };
+		FCC199890E11A668000465B2 /* CIOUSBInterface.mm in Sources */ = {isa = PBXBuildFile; fileRef = FCC199870E11A668000465B2 /* CIOUSBInterface.mm */; };
+		FCEAE6580E09B2E200C3D917 /* BridgeSupport in Resources */ = {isa = PBXBuildFile; fileRef = FCEAE6550E09B2E200C3D917 /* BridgeSupport */; };
+		FCEAE75E0E09EC7B00C3D917 /* CIOService.h in Headers */ = {isa = PBXBuildFile; fileRef = FCEAE75C0E09EC7B00C3D917 /* CIOService.h */; };
+		FCEAE75F0E09EC7B00C3D917 /* CIOService.mm in Sources */ = {isa = PBXBuildFile; fileRef = FCEAE75D0E09EC7B00C3D917 /* CIOService.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCEAE6380E09B01800C3D917 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = CocoaIO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCF5E0370ADEE00C91783 /* CocoaIO_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaIO_Prefix.pch; sourceTree = "<group>"; };
+		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DC2EF5B0486A6940098B216 /* CocoaIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC749EAF0E0863C1006AA51F /* CIORegistryEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIORegistryEntry.h; sourceTree = "<group>"; };
+		FC749EB00E0863C1006AA51F /* CIORegistryEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIORegistryEntry.m; sourceTree = "<group>"; };
+		FC749EB50E08640C006AA51F /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		FC749F7A0E08655A006AA51F /* CocoaIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaIO.h; sourceTree = "<group>"; };
+		FC749F7B0E08655A006AA51F /* CocoaIO.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CocoaIO.mm; sourceTree = "<group>"; };
+		FC749F870E086A4D006AA51F /* CIOObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIOObject.h; sourceTree = "<group>"; };
+		FC749F880E086A4D006AA51F /* CIOObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIOObject.m; sourceTree = "<group>"; };
+		FC749FB00E0876ED006AA51F /* CIOIterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIOIterator.h; sourceTree = "<group>"; };
+		FC749FB10E0876ED006AA51F /* CIOIterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIOIterator.m; sourceTree = "<group>"; };
+		FCC198BA0E0BF538000465B2 /* CIOUSBDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIOUSBDevice.h; sourceTree = "<group>"; };
+		FCC198BB0E0BF538000465B2 /* CIOUSBDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIOUSBDevice.m; sourceTree = "<group>"; };
+		FCC199860E11A668000465B2 /* CIOUSBInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIOUSBInterface.h; sourceTree = "<group>"; };
+		FCC199870E11A668000465B2 /* CIOUSBInterface.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CIOUSBInterface.mm; sourceTree = "<group>"; };
+		FCEAE6550E09B2E200C3D917 /* BridgeSupport */ = {isa = PBXFileReference; lastKnownFileType = folder; path = BridgeSupport; sourceTree = "<group>"; };
+		FCEAE75C0E09EC7B00C3D917 /* CIOService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIOService.h; sourceTree = "<group>"; };
+		FCEAE75D0E09EC7B00C3D917 /* CIOService.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CIOService.mm; sourceTree = "<group>"; };
+		FCEAE7EA0E0A953600C3D917 /* RubyConsole-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RubyConsole-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DC2EF560486A6940098B216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */,
+				FC749EB60E08640C006AA51F /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5B0486A6940098B216 /* CocoaIO.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* CocoaIO */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				089C1665FE841158C02AAC07 /* Resources */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DFFF38A50411DB9C8B /* Products */,
+				FCEAE7EA0E0A953600C3D917 /* RubyConsole-Info.plist */,
+			);
+			name = CocoaIO;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */,
+				1058C7B2FEA5585E11CA2CBB /* Other Frameworks */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C1665FE841158C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FCEAE6550E09B2E200C3D917 /* BridgeSupport */,
+				8DC2EF5A0486A6940098B216 /* Info.plist */,
+				089C1666FE841158C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FC749F7A0E08655A006AA51F /* CocoaIO.h */,
+				FC749F7B0E08655A006AA51F /* CocoaIO.mm */,
+				FC749EAF0E0863C1006AA51F /* CIORegistryEntry.h */,
+				FC749EB00E0863C1006AA51F /* CIORegistryEntry.m */,
+				FC749F870E086A4D006AA51F /* CIOObject.h */,
+				FC749F880E086A4D006AA51F /* CIOObject.m */,
+				FC749FB00E0876ED006AA51F /* CIOIterator.h */,
+				FC749FB10E0876ED006AA51F /* CIOIterator.m */,
+				FCEAE75C0E09EC7B00C3D917 /* CIOService.h */,
+				FCEAE75D0E09EC7B00C3D917 /* CIOService.mm */,
+				FCC198BA0E0BF538000465B2 /* CIOUSBDevice.h */,
+				FCC198BB0E0BF538000465B2 /* CIOUSBDevice.m */,
+				FCC199860E11A668000465B2 /* CIOUSBInterface.h */,
+				FCC199870E11A668000465B2 /* CIOUSBInterface.mm */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC749EB50E08640C006AA51F /* IOKit.framework */,
+				1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7B2FEA5585E11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0867D6A5FE840307C02AAC07 /* AppKit.framework */,
+				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF5E0370ADEE00C91783 /* CocoaIO_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8DC2EF500486A6940098B216 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC749EB10E0863C1006AA51F /* CIORegistryEntry.h in Headers */,
+				FC749F7C0E08655A006AA51F /* CocoaIO.h in Headers */,
+				FC749F890E086A4D006AA51F /* CIOObject.h in Headers */,
+				FC749FB20E0876ED006AA51F /* CIOIterator.h in Headers */,
+				FCEAE75E0E09EC7B00C3D917 /* CIOService.h in Headers */,
+				FCC198BC0E0BF538000465B2 /* CIOUSBDevice.h in Headers */,
+				FCC199880E11A668000465B2 /* CIOUSBInterface.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8DC2EF4F0486A6940098B216 /* CocoaIO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "CocoaIO" */;
+			buildPhases = (
+				8DC2EF500486A6940098B216 /* Headers */,
+				8DC2EF520486A6940098B216 /* Resources */,
+				8DC2EF540486A6940098B216 /* Sources */,
+				8DC2EF560486A6940098B216 /* Frameworks */,
+				FCEAE6B10E09BA6D00C3D917 /* Copy In Bridge Support */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaIO;
+			productInstallPath = "$(HOME)/Library/Frameworks";
+			productName = CocoaIO;
+			productReference = 8DC2EF5B0486A6940098B216 /* CocoaIO.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "CocoaIO" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* CocoaIO */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DC2EF4F0486A6940098B216 /* CocoaIO */,
+				FCEAE6350E09B01100C3D917 /* Update Bridge Metadata */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DC2EF520486A6940098B216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */,
+				FCEAE6580E09B2E200C3D917 /* BridgeSupport in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FCEAE6340E09B01100C3D917 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "EXCEP_FILE=$CONFIGURATION_TEMP_DIR/$PROJECT_NAME.exceptions\nFRAMEWORK_NAME=$CONFIGURATION_BUILD_DIR/$PROJECT_NAME.framework\nOUT_FILE=$PROJECT_DIR/BridgeSupport/$PROJECT_NAME.bridgesupport\n\ngen_bridge_metadata -F exceptions-template -f $FRAMEWORK_NAME -o $EXCEP_FILE\ngen_bridge_metadata -f $FRAMEWORK_NAME -e $EXCEP_FILE -o $OUT_FILE\n";
+		};
+		FCEAE6B10E09BA6D00C3D917 /* Copy In Bridge Support */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy In Bridge Support";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "BS_DIR=$CONFIGURATION_BUILD_DIR/$FULL_PRODUCT_NAME/BridgeSupport\necho \"BS_DIR = $BS_DIR\"\nmkdir -p $BS_DIR\ncp $PROJECT_DIR/BridgeSupport/*.bridgesupport $BS_DIR";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DC2EF540486A6940098B216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC749EB20E0863C1006AA51F /* CIORegistryEntry.m in Sources */,
+				FC749F7D0E08655A006AA51F /* CocoaIO.mm in Sources */,
+				FC749F8A0E086A4D006AA51F /* CIOObject.m in Sources */,
+				FC749FB30E0876ED006AA51F /* CIOIterator.m in Sources */,
+				FCEAE75F0E09EC7B00C3D917 /* CIOService.mm in Sources */,
+				FCC198BD0E0BF538000465B2 /* CIOUSBDevice.m in Sources */,
+				FCC199890E11A668000465B2 /* CIOUSBInterface.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCEAE6390E09B01800C3D917 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DC2EF4F0486A6940098B216 /* CocoaIO */;
+			targetProxy = FCEAE6380E09B01800C3D917 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C1666FE841158C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1667FE841158C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91AE08733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CocoaIO_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				LD_DYLIB_INSTALL_NAME = "@loader_path/../Frameworks/$(EXECUTABLE_PATH)";
+				OTHER_CFLAGS = "-DCIODebug";
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				PRODUCT_NAME = CocoaIO;
+				WRAPPER_EXTENSION = framework;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DEB91AF08733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CocoaIO_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				PRODUCT_NAME = CocoaIO;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		1DEB91B208733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Debug;
+		};
+		1DEB91B308733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release;
+		};
+		FCEAE6360E09B01100C3D917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Update Bridge Metadata";
+			};
+			name = Debug;
+		};
+		FCEAE6370E09B01100C3D917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "Update Bridge Metadata";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "CocoaIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91AE08733DA50010E9CD /* Debug */,
+				1DEB91AF08733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "CocoaIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91B208733DA50010E9CD /* Debug */,
+				1DEB91B308733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCEAE63A0E09B03600C3D917 /* Build configuration list for PBXAggregateTarget "Update Bridge Metadata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCEAE6360E09B01100C3D917 /* Debug */,
+				FCEAE6370E09B01100C3D917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
